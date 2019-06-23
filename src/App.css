@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none !important;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mens-wear {
+  -ms-column-count: 3;
+  -o-column-count: 3;
+  -moz-column-count: 3;
+  -khtml-column-count: 3;
+  column-count: 3;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #666;
+}
+
+.search-input {
+  padding: 0px 10px 0px 32px !important;
+  height: 32px !important;
+  width: 18rem !important;
+  border-radius: 24px !important;
+  background-color: #999 !important;
+  border: none !important;
+}
+
+.search-icon {
+  font-size: 16px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: #fff;
+  z-index: 100;
+}
+
+.search-input:focus {
+  color: #fff !important;
+}
+
+.place-holder-white::placeholder {
+  color: #fff !important;
+  font-size: 14px;
+}
