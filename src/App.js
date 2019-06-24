@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/layout/Header";
 import WearsList from "./components/WearsList";
-import Filter from "./components/Filter";
+import Filter from "./components/filters/Filter";
 import ImagesTile from "./components/ImagesTile";
 
 import "./App.css";
