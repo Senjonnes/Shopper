@@ -175,7 +175,7 @@ class App extends Component {
               <div className="col-md-3">
                 <Filter filters={this.state.items} />
               </div>
-              <div className="col-md-9">
+              <div className="col-md-9 col-sm-12">
                 <ImagesTile />
               </div>
             </div>

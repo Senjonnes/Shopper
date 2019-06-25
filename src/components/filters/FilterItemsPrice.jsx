@@ -23,7 +23,7 @@ class FilterItemsPrice extends Component {
   render() {
     return (
       <div style={filterPriceStyle}>
-        <p className="text-secondary font-weight-bold my-3">Price slider</p>
+        <h5 className="text-secondary font-weight-bold my-3">Price range</h5>
         {this.getPriceSlider()}
       </div>
     );

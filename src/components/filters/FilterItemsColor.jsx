@@ -44,7 +44,7 @@ class FilterItemsColor extends Component {
   render() {
     return (
       <div>
-        <p className="text-secondary font-weight-bold my-3">Color</p>
+        <h5 className="text-secondary font-weight-bold my-3">Color</h5>
         {this.state.items.map((item) => (
           <button key={item.id} className={item.button} />
         ))}

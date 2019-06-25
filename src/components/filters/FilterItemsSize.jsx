@@ -4,7 +4,7 @@ class FilterItemsSize extends Component {
   render() {
     return (
       <div>
-        <p className="text-secondary font-weight-bold my-3">Size</p>
+        <h5 className="text-secondary font-weight-bold my-3">Size</h5>
         <button className="btn item-size-button">XS</button>
         <button className="btn item-size-button active">S</button>
         <button className="btn item-size-button">M</button>

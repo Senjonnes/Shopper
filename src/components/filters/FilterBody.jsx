@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FilterItemsColor from "../filters/FilterItemsColor";
 import FilterItemsSize from "../filters/FilterItemsSize";
 import FilterItemsPrice from "../filters/FilterItemsPrice";
+import FilterItemsBrand from "../filters/FilterItemsBrand";
 
 const filterBodyStyle = {
   backgroundColor: "#fff",
@@ -16,6 +17,7 @@ class FilterBody extends Component {
         <FilterItemsColor />
         <FilterItemsSize />
         <FilterItemsPrice />
+        <FilterItemsBrand />
       </div>
     );
   }

@@ -153,3 +153,45 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .noUi-handle:after {
   display: none;
 }
+
+.solid-button {
+  background-color: #e60c31 !important;
+  border-radius: 40px !important;
+  color: #fff !important;
+  width: 100px;
+  border: none !important;
+}
+
+.solid-button:hover {
+  background-color: transparent !important;
+  color: #e60c31 !important;
+  transition: 0.3s;
+}
+
+.light-button {
+  background-color: transparent !important;
+  color: #e60c31 !important;
+  border: none !important;
+}
+
+.light-button:hover {
+  font-weight: bold !important;
+  transition: 0.3s;
+}
+
+.image-tile {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding-top: 6px;
+}
+
+.image-tile:hover {
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.3);
+  border: none;
+  transition: 0.3s;
+}
+
+.image-tile img {
+  height: 240px;
+}
